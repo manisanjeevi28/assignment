@@ -1,5 +1,6 @@
 # Assignment
 - Steps
+  - Clone this repo `git@github.com:manisanjeevi28/assignment.git`
   - Run `composer install`
   - Create settings.php file and files directory under sites/default
   - Once the site installed, change the site default theme to Bartik 9.4.5 and enable custom module - Jugaad Patches Pvt Ltd Custom Functionalities
