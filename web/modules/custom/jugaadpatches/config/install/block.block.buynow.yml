@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - jugaadpatches
+    - node
+  theme:
+    - bartik
+id: buynow
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: buynow_qr
+settings:
+  id: buynow_qr
+  label: 'Buy Now'
+  label_display: visible
+  provider: jugaadpatches
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      products: products

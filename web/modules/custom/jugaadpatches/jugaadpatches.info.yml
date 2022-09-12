@@ -1,0 +1,5 @@
+name: Jugaad Patches Pvt Ltd Custom Functionalities
+description: "Jugaad Patches Pvt Ltd custom functionalities will goes in this module."
+core_version_requirement: ^8 || ^9
+type: module
+package: Custom
